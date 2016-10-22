@@ -1,11 +1,52 @@
-<nav>
-  <div class="nav-wrapper">
-    <form>
-      <div class="input-field">
-        <input id="search" type="search" required>
-        <label for="search"><i class="material-icons">search</i></label>
-        <i class="material-icons">close</i>
+<!-- START NAV -->
+
+<!-- <nav> -->
+  <div class="row" id='navBar'>
+    <div class="valign-wrapper">
+      <div class="col s2 m2 l2">
+        <a href="#!" class="brand-logo"><img class="responsive-img" src='images/drive-logo.png'></a>
       </div>
-    </form>
+      <div class="col s8 m8 l8 input-field valign" id='nav-searchBar'>
+        <div class="nav-search-container">
+          <i class='material-icons prefix'>search</i>
+          <input class='navSearch' type="text" name="search" placeholder="Search Drive">
+            <!-- <i class='material-icons'>arrow_drop_down</i> -->
+          </input>
+        </div>
+      </div>
+      <div class="col s2 m2 l2">
+        <i id='navIcon' class="material-icons">apps</i>
+        <i id='navIcon' class="material-icons">notifications</i>
+        <i id='navIcon' class="material-icons">perm_identity</i>
+        <!-- <img class="circle responsive-img" id='userPic' src="images/Jon_Snow.jpg"> -->
+    </div>
   </div>
-</nav>
+<!-- </nav> -->
+
+<div class="row">
+  <div class="valign-wrapper">
+    <div class="col s12 m12 l12 bottomNav z-depth-1">
+      <div class="col s2 m2 l2">
+        <a class="btn valign" id='nav-new-doc-btn'><p>NEW</p></a>
+      </div>
+      <div class="col s3 m3 l3">
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-button btn z-depth-0 left' id='myDrive-dropdown-btn' href='#' data-beloworigin="true" data-activates='myDrive-dropdown'>MY DRIVE<i id='dropdown-arrow-icon' class="material-icons">arrow_drop_down</i></a>
+        <!-- Dropdown Structure -->
+        <ul id='myDrive-dropdown' class='dropdown-content'>
+          <li id='test'><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>create_new_folder</i>New Folder</a></li>
+          <li class="divider"></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>file_upload</i>Upload files</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>folder</i>Upload Folder</a></li>
+          <li class="divider"></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>insert_drive_file</i>Google Docs</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>description</i>Google Sheets</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>slideshow</i>Google Slides</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- END NAV -->

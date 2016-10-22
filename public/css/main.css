@@ -1,3 +1,59 @@
-*{
+#navBar{
+  margin: 0;
   background-color: white;
+  height: 75px;
+}
+#userPic{
+  height: 25%;
+  width: 25%;
+}
+.nav-search-container{
+  margin: 1% 0 0 1%;
+  padding: 0 3% 0 3%;
+  background-color: #FAFAFA;
+  height: 50px;
+  width: auto;
+}
+.navSearch{
+  width: 50%;
+  height: 30px;
+}
+#navIcon{
+  color: grey;
+}
+#nav-searchBar{
+  margin: 0;
+  padding: 0;
+}
+.bottomNav{
+  background-color: #FAFAFA;
+  height: 7vh;
+}
+#dropdown-arrow-icon{
+  /*padding-top: 5%;*/
+}
+#nav-new-doc-btn{
+  background-color: #4285F4;
+  height: auto;
+  width: 125px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: 900;
+}
+#myDrive-dropdown-btn{
+  padding: 0;
+  margin-top: 0;
+  background-color: #FAFAFA;
+  color: grey;
+  font-weight: 900;
+}
+#myDrive-dropdown{
+  width: 100%;
+}
+#test{
+  width: 100%;
+}
+#myDrive-dropdown-link{
+  color: #757575;
+  width: 800px;
 }
