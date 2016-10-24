@@ -13,5 +13,38 @@ app.controller('homeController', function($scope) {
     );
   })
 
+    $(function() {
+    Vue.component('item', {
+    template: '#folder-template',
+    props: {
+    },
+    data: function () {
+      return {
+      }
+    },
+    computed: {
+    },
+    methods: {
+    }
+  })
+
+  	new Vue({
+    	el: '#test',
+      data: {
+      	folders: [
+        	{ id: '1', name: 'root', parent_id: null },
+          { id: '2', name: 'root2', parent_id: null },
+          { id: '3', name: 'subfolder1', parent_id: 1 }
+        ]
+      },
+      computed: {
+
+      },
+      methods: {
+
+      }
+    });
+  });
+
 
 })

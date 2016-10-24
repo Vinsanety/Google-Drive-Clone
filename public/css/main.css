@@ -3,8 +3,10 @@
 }
 
 
+
 /*NAV BAR START*/
 #navBar{
+  min-width: 1075px;
   margin: 0;
   background-color: white;
   height: 85px;
@@ -77,6 +79,7 @@
 
 /*BODY START*/
 .body-container{
+  min-width: 1075px;
   padding-top: 3%;
   height: 90vh;
   background-color: #e0e0e0;
