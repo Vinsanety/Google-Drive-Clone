@@ -73,3 +73,46 @@
 }
 
 /*NAV BAR END*/
+
+
+/*BODY START*/
+.body-container{
+  padding-top: 3%;
+  height: 90vh;
+  background-color: #e0e0e0;
+}
+.drive-files-container{
+  padding-top: 5%;
+  background-color:rgba(0, 0, 0, 0);
+  margin: 0;
+  width: 100%;
+}
+.file-list-item{
+  height: 5vh;
+}
+#drive-files{
+  font-weight: lighter;
+  color: black;
+  padding-top: 4%;
+}
+.file-list-item:hover{
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.2);
+}
+#divider{
+  border: 0;
+  height: 1px;
+  background: lightgrey;
+}
+#storage-measure{
+  font-size: 10px;
+}
+
+.vertical-seperator{
+  width: 2px;
+  background-color: lightgrey;
+  height: 90vh;
+}
+
+/*BODY END*/

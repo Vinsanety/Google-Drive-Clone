@@ -1,68 +1,23 @@
-<!-- START NAV -->
+<div class="row body-container">
+  <div class="col s12 m12 l12">
 
-<div class="row" id='navBar'>
-  <!-- TOP NAV -->
-  <div class="valign-wrapper" id='nav-topNav'>
     <div class="col s2 m2 l2">
-      <a href="#!" class="brand-logo"><img class="responsive-img" src='images/drive-logo.png'></a>
+      <ul class="drive-files-container">
+        <li class='file-list-item'><a id='drive-files' href="home"><i class='material-icons prefix'>important_devices</i>My Drive</a></li>
+        <li class='file-list-item'><a id='drive-files' href=""><i class='material-icons prefix'>people</i>Shared with me</a></li>
+        <li class='file-list-item'><a id='drive-files' href=""><i class='material-icons prefix'>restore</i>Recent</a></li>
+        <li class='file-list-item'><a id='drive-files' href=""><i class='material-icons prefix'>photo_library</i>Google Photos</a></li>
+        <li class='file-list-item'><a id='drive-files' href=""><i class='material-icons prefix'>star</i>Stared</a></li>
+        <li class='file-list-item'><a id='drive-files' href=""><i class='material-icons prefix'></i>Trash</a></li>
+        <hr id='divider'>
+        <p class='center' id='storage-measure'>10GB of 15GB Used</p>
+        <li class='file-list-item'><a id='drive-files'><i class='material-icons prefix'>storage</i>Upgrade Storage</a></li>
+      </ul>
     </div>
-    <nav class='col s6 m6 l6 nav-search-container z-depth-0'>
-      <div class="nav-wrapper">
-        <form>
-          <div class="input-field">
-            <input class='navSearch' id="search" type="search" placeholder="Search Drive" required>
-            <label for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
-          </div>
-        </form>
-      </div>
-    </nav>
-    <div class="col s4 m4 l4">
-      <div class="right">
-        <i id='navIcon-top' class="small material-icons">apps</i>
-        <i id='navIcon-top' class="small material-icons">notifications</i>
-        <img class="circle responsive-img" id='userPic' src="images/Jon_Snow.jpg">
-      </div>
-    </div>
-  </div>
-  <!-- END TOP NAV -->
+    <div class='vertical-seperator left'></div>
 
-  <!-- BOTTOM NAV -->
-  <div class="row">
-    <div class="valign-wrapper">
-      <div class="col s12 m12 l12 bottomNav z-depth-1">
-        <div class="col s2 m2 l2">
-          <a class="btn valign" id='nav-new-doc-btn'><p>NEW</p></a>
-        </div>
-        <div class="col s3 m3 l3">
-          <!-- Dropdown Trigger -->
-          <div class="myDrive-dropdown-container valign">
-            <a class='dropdown-button btn z-depth-0 left' id='myDrive-dropdown-btn' href='#' data-beloworigin="true" data-constrainwidth="false" data-activates='myDrive-dropdown'>MY DRIVE<i id='dropdown-arrow-icon' class="material-icons">arrow_drop_down</i></a>
-          </div>
-          <!-- Dropdown Structure -->
-          <ul id='myDrive-dropdown' class='dropdown-content'>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>create_new_folder</i>New Folder...</a></li>
-            <li class="divider"></li>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>file_upload</i>Upload files...</a></li>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>folder</i>Upload Folder...</a></li>
-            <li class="divider"></li>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>insert_drive_file</i>Google Docs</a></li>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>description</i>Google Sheets</a></li>
-            <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>slideshow</i>Google Slides</a></li>
-          </ul>
-        </div>
-        <div class="col s7 m7 l7 valign">
-          <div class="right">
-            <i id='nav-bottom-icon' class="small material-icons">view_list</i>
-            <i id='nav-bottom-icon' class="small material-icons">info</i>
-            <i id='nav-bottom-icon' class="small material-icons">settings</i>
-          </div>
-        </div>
-      </div>
+    <div class="col s10 m10 l10">
+
     </div>
   </div>
-  <!-- END BOTTOM NAV -->
 </div>
-
-
-<!-- END NAV -->
