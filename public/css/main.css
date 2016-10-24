@@ -2,42 +2,41 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+/*NAV BAR START*/
 #navBar{
   margin: 0;
   background-color: white;
-  height: 75px;
+  height: 85px;
 }
 #userPic{
-  height: 25%;
-  width: 25%;
+	width: 25px;
+	height: 25px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(images/Jon_Snow.jpg) no-repeat;
 }
 .nav-search-container{
-  margin: 1% 0 0 1%;
-  padding: 0 3% 0 3%;
+  margin: 0 0 0 1%;
   background-color: #FAFAFA;
   height: 50px;
-  width: auto;
 }
 .navSearch{
-  width: 50%;
+  width: auto;
   height: 30px;
+}
+#nav-topNav{
+  height: 65px;
 }
 #navIcon{
   color: grey;
 }
-#nav-searchBar{
-  margin: 0;
-  padding: 0;
-}
+
+
 .bottomNav{
   background-color: #FAFAFA;
   height: 7vh;
-}
-.myDrive-dropdown-container{
-  margin-top: 2%;
-}
-#dropdown-arrow-icon{
-  color: grey;
 }
 #nav-new-doc-btn{
   background-color: #4285F4;
@@ -46,6 +45,12 @@
   height: 30px;
   font-size: 10px;
   font-weight: 900;
+}
+.myDrive-dropdown-container{
+  margin-top: 2%;
+}
+#dropdown-arrow-icon{
+  color: grey;
 }
 #myDrive-dropdown-btn{
   padding: 0;
@@ -58,3 +63,5 @@
   color: #757575;
   width: 300px;
 }
+
+/*NAV BAR END*/
