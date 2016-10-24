@@ -95,6 +95,9 @@
   height: 100%;
   background-color:rgba(0, 0, 0, 0.09);
 }
+#file-icon{
+  padding-right: 7%;
+}
 #drive-files-link{
   font-weight: lighter;
   color: black;
