@@ -13,6 +13,15 @@ app.controller('homeController', function($scope) {
     );
   })
 
+  new Vue({
+    el: '#new-doc-btn',
+    methods: {
+      say: function (message) {
+        alert(message)
+      }
+    }
+  })
+
     $(function() {
     Vue.component('item', {
     template: '#folder-template',
@@ -28,7 +37,7 @@ app.controller('homeController', function($scope) {
     }
   })
 
-  	new Vue({
+  	var app-2 = new Vue({
     	el: '#test',
       data: {
       	folders: [
