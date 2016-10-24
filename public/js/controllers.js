@@ -1,5 +1,4 @@
 app.controller('homeController', function($scope) {
-  console.log('home route hit');
 
   angular.element(document).ready(function () {
     $('.dropdown-button').dropdown({

@@ -31,17 +31,19 @@
       </div>
       <div class="col s3 m3 l3">
         <!-- Dropdown Trigger -->
-        <a class='dropdown-button btn z-depth-0 left' id='myDrive-dropdown-btn' href='#' data-beloworigin="true" data-activates='myDrive-dropdown'>MY DRIVE<i id='dropdown-arrow-icon' class="material-icons">arrow_drop_down</i></a>
+        <div class="myDrive-dropdown-container valign">
+          <a class='dropdown-button btn z-depth-0 left' id='myDrive-dropdown-btn' href='#' data-beloworigin="true" data-constrainwidth="false" data-activates='myDrive-dropdown'>MY DRIVE<i id='dropdown-arrow-icon' class="material-icons">arrow_drop_down</i></a>
+        </div>
         <!-- Dropdown Structure -->
         <ul id='myDrive-dropdown' class='dropdown-content'>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>create_new_folder</i>New Folder</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>create_new_folder</i>New Folder</a></li>
           <li class="divider"></li>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>file_upload</i>Upload files</a></li>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>folder</i>Upload Folder</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>file_upload</i>Upload files</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>folder</i>Upload Folder</a></li>
           <li class="divider"></li>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>insert_drive_file</i>Google Docs</a></li>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>description</i>Google Sheets</a></li>
-          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons'>slideshow</i>Google Slides</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>insert_drive_file</i>Google Docs</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>description</i>Google Sheets</a></li>
+          <li><a id='myDrive-dropdown-link' href="#!"><i class='material-icons prefix'>slideshow</i>Google Slides</a></li>
         </ul>
       </div>
     </div>

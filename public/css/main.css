@@ -1,3 +1,7 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 #navBar{
   margin: 0;
   background-color: white;
@@ -29,8 +33,11 @@
   background-color: #FAFAFA;
   height: 7vh;
 }
+.myDrive-dropdown-container{
+  margin-top: 2%;
+}
 #dropdown-arrow-icon{
-  /*padding-top: 5%;*/
+  color: grey;
 }
 #nav-new-doc-btn{
   background-color: #4285F4;
@@ -47,10 +54,7 @@
   color: grey;
   font-weight: 900;
 }
-#myDrive-dropdown{
-  width: 100%;
-}
 #myDrive-dropdown-link{
   color: #757575;
-  width: 800px;
+  width: 300px;
 }
