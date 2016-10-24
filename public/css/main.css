@@ -10,8 +10,9 @@
   height: 85px;
 }
 #userPic{
-	width: 25px;
-	height: 25px;
+  padding: 0 5% 0 5%;
+	width: 45px;
+	height: 35px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
@@ -29,8 +30,9 @@
 #nav-topNav{
   height: 65px;
 }
-#navIcon{
+#navIcon-top{
   color: grey;
+  padding: 0 5% 0 5%;
 }
 
 
@@ -62,6 +64,12 @@
 #myDrive-dropdown-link{
   color: #757575;
   width: 300px;
+  font-size: 13px;
+}
+#nav-bottom-icon{
+  margin-top: 5%;
+  padding: 0 5% 0 5%;
+  color: grey;
 }
 
 /*NAV BAR END*/
