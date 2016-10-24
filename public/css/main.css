@@ -84,21 +84,22 @@
 .drive-files-container{
   padding-top: 5%;
   background-color:rgba(0, 0, 0, 0);
-  margin: 0;
   width: 100%;
 }
 .file-list-item{
-  height: 5vh;
-}
-#drive-files{
-  font-weight: lighter;
-  color: black;
-  padding-top: 4%;
+  height: 100%;
+  padding: 3%;
 }
 .file-list-item:hover{
   width: 100%;
   height: 100%;
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color:rgba(0, 0, 0, 0.09);
+}
+#drive-files-link{
+  font-weight: lighter;
+  color: black;
+  padding-top: 4%;
+  width: 100%;
 }
 #divider{
   border: 0;
